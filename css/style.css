@@ -4,10 +4,13 @@
   padding: 0;
   /* margin: 0; */
   box-sizing: border-box;
+  
+    
+  
 }
 
 html {
-  background-color: rgba(164,116,254,255);
+  background-color: white;
   scroll-behavior: smooth;
   width: 100%;
 }
@@ -80,7 +83,9 @@ header nav {
   border:solid black;
 
 } */
-
+.about p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 header .barnd h1 {
   font-size: 30px;
   font-weight: 100;
@@ -174,6 +179,7 @@ header hr {
 
 header .home {
   margin-top: 10%;
+  margin-bottom: -100px;
   text-align: center;
   color: white;
 }
@@ -189,7 +195,7 @@ header .home h3 {
 header .home h1 {
   font-size: 120px;
   color: rgba(164,116,254,255);
-  font-family: monospace;
+  font-family: sans-serif;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -310,7 +316,7 @@ header .home .item .item_box:hover a {
 
   /*---------------header--------*/
   header {
-    background-image: url("../image/back.jpg");
+    background-image: url("../image/back.jpeg");
     background-size: cover;
     height: 100vh !important;
   }
@@ -793,17 +799,18 @@ footer .content li {
 
   .flex1 {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: row;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    flex-wrap: wrap;
     /* padding-left: 5%; */
+    margin-bottom: 10px;
 
   }
   .box{
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
+    padding-left: 15%;
   }
 
   .flex {
@@ -816,7 +823,7 @@ footer .content li {
 
   /*----global ----*/
   header {
-    background-image: url("../image/back.jpg");
+    background-image: url("../image/back.jpeg");
     height: 120vh !important;
   }
 
@@ -869,6 +876,12 @@ footer .content li {
     height: 60px;
   }
 
+  /* header .home {
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    border: solid;
+  } */
   /*---------------Design--------*/
   .Design {
     text-align: left;
@@ -925,7 +938,7 @@ footer .content li {
     flex-direction: row;
     /* justify-content:flex-start; */
     /* flex-wrap: wrap; */
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* justify-content: baseline; */
     
   }
